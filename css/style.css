@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.mainBlock {
+    width: 30%;
+    background-color: darkcyan;
+    padding: 1%;
+    border: 5px solid silver;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+#blockTitle {
+    width: 98%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: inherit;
+    font-family: "Inconsolata";
+    padding: 1%;
+    background-color: aliceblue;
+    border: 2px solid aqua;
+}
+
+.field {
+    margin-bottom: 3%;
+    width: 98%;
+    height: 4vh;
+    /*font-size: 1.5em;*/
+    font-size: inherit;
+    font-family: "Inconsolata";
+    background-color: lightyellow;
+    border: 0px;
+}
+
+.field:focus {
+    border: 1px darkblue;
+}
+
+label {
+    font-size: large;
+    font-family: "Rachana";
+}
+
+.blockField {
+    width: 98%;
+    padding: 1%;
+    background-color: cadetblue;
+    border: 2px solid darkgray;
+    margin: 0 auto;
+}
+
+.button {
+    border: solid 1px #da7c0c;
+    background: #f78d1d;
+    background: -moz-linear-gradient(top, #faa51a, #f47a20);
+    color: #fff;
+    padding: 7px 12px;
+    -webkit-border-radius: 4px;
+    moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%;
+    height: 15%;
+    font-size: larger;
+    margin: 15px 15px;
+    float: right;
+}
+
+.button:hover {
+    background: #f47c20;
+    background: -moz-linear-gradient(top, #f88e11, #f06015);
+}
+
+.regText {
+    margin-top: 15px;
+    margin-left: 15px;
+    display: inline-block;
+}
