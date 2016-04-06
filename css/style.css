@@ -41,6 +41,10 @@ body {
     border: 1px darkblue;
 }
 
+.field #name, .field #sername {
+    width: 49%;
+}
+
 label {
     font-size: large;
     font-family: "Rachana";
@@ -64,9 +68,9 @@ label {
     moz-border-radius: 4px;
     border-radius: 4px;
     cursor: pointer;
-    width: 20%;
+    width: auto;
     height: 15%;
-    font-size: larger;
+    font-size: 16px;
     margin: 15px 15px;
     float: right;
 }
