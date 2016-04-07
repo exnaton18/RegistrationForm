@@ -12,13 +12,13 @@
 
 <div class="mainBlock">
     <div id="blockTitle"><h2><?=TITLE_BLOCK_SIGNUP?></h2></div>
-    <form action="check.php" method="get" id="form">
+    <form action="check.php" method="get" id="form" >
         <div class="blockField">
             <label for="username"><?=LABEL_USERNAME?></label><br>
             <input class="field" type="text" id="username" name="username" placeholder="example123"><br>
             <label for="email"><?=LABEL_EMAIL?></label><br>
             <input class="field" type="text" id="email" name="email" placeholder="example@gmail.com"><br>
-            <label for="fulName"><?=LABEL_FULLNAME?></label><br>
+            <label><?=LABEL_FULLNAME?></label><br>
             <input class="field" type="text" id="name" name="name" style="width: 49%;" placeholder="<?=PLACEHOLDER_NAME;?>">
             <input class="field" type="text" id="sername" name="sername" style="width: 48%;" placeholder=<?=PLACEHOLDER_SURNAME?>><br>
             <label for="password"><?=LABEL_PASSWORD?></label><br>
@@ -27,7 +27,7 @@
             <input class="field" type="password" id="repassword" name="repassword" placeholder=<?=PLACEHOLDER_REPASSWORD?>><br>
         </div>
         <p class="regText"><?=P_REG_TEXT?><br><a href="login.php?lang=<?=$_GET['lang']?>"><?=A_REG_TEXT?></a></p>
-        <button class="button" onclick="valid(document.getElementById('form')); document.reload();"><?=REG_BUTTON_VALUE?></button>
+        <button class="button" onclick="return valid(document.getElementById('form'))"><?=REG_BUTTON_VALUE?></button>
     </form>
 </div>
 <?php
