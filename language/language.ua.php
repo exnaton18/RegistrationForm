@@ -1,4 +1,7 @@
 <?php
+    define(LINK_ENGLISH, "Англійська");
+    define(LINK_UKRAINIAN, "Українська");
+    define(LINK_RUSSIAN, "Російська");
     define(TITLE_PAGE, "Форма регістрації(входу) користувача");
     define(TITLE_BLOCK_SIGNUP, "Реєстрація");
     define(LABEL_USERNAME, "Ім’я користувача");

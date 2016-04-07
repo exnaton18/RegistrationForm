@@ -1,5 +1,9 @@
 <?php
-    include_once ("language/language.".$_GET["lang"].".php");
+    if ($_GET["lang"]) {
+        include_once("language/language." . $_GET["lang"] . ".php");
+    } else {
+        include_once ("language/language.ru.php");
+    }
 ?>
 <!DOCTYPE html>
 <html>

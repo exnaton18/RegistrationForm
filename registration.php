@@ -8,36 +8,11 @@
     </header>
 
     <!--suppress ALL -->
-    <script type="text/javascript">
-        function valid(form) {
-            var username = form.username.value;
-            var email = form.email.value;
-            var name = form.name.value;
-            var sername = form.sername.value;
-            var password = form.password.value;
-            var repassword = form.repassword.value;
-
-            var username_pattern = /^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$/;
-            var adr_pattern = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-            var name_pattern = /^[а-яА-ЯёЁa-zA-Z]+$/;
-            var password_pattern = /^[a-zA-Z0-9]+$/;
-
-            if (username_pattern.test(username) == false)
-                alert("Username isn't correct");
-            if (adr_pattern.test(email) == false)
-                alert("Email isn't correct");
-            if (name_pattern.test(name) == false || name_pattern.test(sername) == false)
-                alert("Ful name isn't correct");
-            if (password_pattern.test(password) == false)
-                alert("Password isn't correct");
-            if (repassword != password)
-                alert("Passwords isn't equel");
-        }
-    </script>
+    <script type="text/javascript" src="js/script.js"></script>
 
 <div class="mainBlock">
     <div id="blockTitle"><h2><?=TITLE_BLOCK_SIGNUP?></h2></div>
-    <form action="" id="form">
+    <form action="check.php" method="get" id="form">
         <div class="blockField">
             <label for="username"><?=LABEL_USERNAME?></label><br>
             <input class="field" type="text" id="username" name="username" placeholder="example123"><br>
@@ -52,7 +27,7 @@
             <input class="field" type="password" id="repassword" name="repassword" placeholder=<?=PLACEHOLDER_REPASSWORD?>><br>
         </div>
         <p class="regText"><?=P_REG_TEXT?><br><a href="login.php?lang=<?=$_GET['lang']?>"><?=A_REG_TEXT?></a></p>
-        <button class="button" onclick="valid(document.getElementById('form'))"><?=REG_BUTTON_VALUE?></button>
+        <button class="button" onclick="valid(document.getElementById('form')); document.reload();"><?=REG_BUTTON_VALUE?></button>
     </form>
 </div>
 <?php
