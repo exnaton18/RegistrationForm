@@ -13,12 +13,12 @@
     define(PLACEHOLDER_SURNAME, "Фамилия");
     define(PLACEHOLDER_PASSWORD, "пароль");
     define(PLACEHOLDER_REPASSWORD, "пароль");
-    define(P_REG_TEXT, "Уже зарегистрированы");
-    define(A_REG_TEXT, "Введите имя пользователя");
+    define(P_REG_TEXT, "Уже зарегистрированы?");
+    define(A_REG_TEXT, "Введите имя пользователя.");
     define(REG_BUTTON_VALUE, "Зарегистрироваться");
     define(TITLE_BLOCK_SIGNIN, "Авторизация");
     define(P_AUTH_TEXT, "Еще не зарегистрированы?");
-    define(A_AUTH_TEXT, "Перейти на форму регистации");
+    define(A_AUTH_TEXT, "Перейти на форму регистации.");
     define(AUTH_BUTTON_VALUE, "Войти");
 
 

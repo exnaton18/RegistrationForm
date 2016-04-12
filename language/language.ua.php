@@ -14,7 +14,7 @@
     define(PLACEHOLDER_PASSWORD, "пароль");
     define(PLACEHOLDER_REPASSWORD, "пароль");
     define(P_REG_TEXT, "Вже зареєстровані?");
-    define(A_REG_TEXT, "Введіть ім’я користувача");
+    define(A_REG_TEXT, "Введіть ім’я користувача.");
     define(REG_BUTTON_VALUE, "Зареєструватися");
     define(TITLE_BLOCK_SIGNIN, "Авторизація");
     define(P_AUTH_TEXT, "Ще не зареєстровані?");

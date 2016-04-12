@@ -12,16 +12,19 @@ header {
 }
 
 header a {
-    float: right;
+    display: inline-block;
     padding: 1%;
+    float: right;
 }
 
 header a:hover {
     background-color: #3F9EFB;
+
 }
 
 a {
     text-decoration: none;
+
 }
 
 .mainBlock {
@@ -44,28 +47,37 @@ a {
     border: 2px solid aqua;
 }
 
-.field {
+.field, .error {
+    padding-left: 2%;
     margin-bottom: 3%;
-    width: 98%;
+    width: 96%;
     height: 4vh;
     /*font-size: 1.5em;*/
     font-size: inherit;
     font-family: "Inconsolata";
     background-color: lightyellow;
-    border: 0px;
+    border: 1px solid #211000;
+    border-radius: 5px;
 }
 
 .field:focus {
-    border: 1px darkblue;
+    border: 2px solid darkblue;
+    box-shadow: #80817c;
+    border-radius: 5px;
 }
 
 .field #name, .field #sername {
-    width: 49%;
+    width: 48%;
 }
 
 label {
+    margin-left: 2%;
     font-size: large;
     font-family: "Rachana";
+}
+
+div {
+    background-color: #3F9EFB;
 }
 
 .blockField {
@@ -98,8 +110,56 @@ label {
     background: -moz-linear-gradient(top, #f88e11, #f06015);
 }
 
+p a {
+    color: #3531A8;
+    text-decoration: underline;
+}
 .regText {
     margin-top: 15px;
     margin-left: 15px;
     display: inline-block;
 }
+
+.error {
+    border: 2px solid red;
+    background-color: #fbfff6;
+}
+
+#mainProfileBlock {
+    width: 40%;
+    height: 90vh;
+    background-color: #52a9ff;
+    border-radius: 15px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.profile {
+    background-color: #8ec5ff;
+    display: inline-block;
+    margin: 2%;
+    border-radius: 10px;
+}
+
+#avatarProfileBlock, #baseProfileBlock {
+    width: 45%;
+    height: 40vh;
+}
+#baseProfileBlock {
+    float: right;
+}
+
+#baseProfileBlock label {
+}
+#avatarProfileBlock img {
+    display: inline-block;
+    width: 96%;
+    height: 96%;
+    padding: 2%;
+}
+
+#othersProfileBlock {
+    width: 94%;
+    height: 43vh;
+}
+
