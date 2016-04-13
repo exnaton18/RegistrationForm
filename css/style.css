@@ -7,19 +7,51 @@ body {
 }
 
 header {
-    min-height: 50px;
+    height: 7vh;
     background-color: dodgerblue;
+
 }
 
 header a {
     display: inline-block;
     padding: 1%;
     float: right;
+    display: inline-block;
 }
 
 header a:hover {
     background-color: #3F9EFB;
+}
 
+#exit {
+    float: left;
+    margin-left: 1%;
+}
+
+.headerButton {
+    background-color: #e88312;
+    float: left;
+    color: #d3e6e8;
+}
+
+.headerButton:hover {
+    background-color: #e85f00;
+}
+
+.profileSigh {
+    background-color: #cee8db;
+    border-radius: 50%;
+    float: left;
+    color: #0300e8;
+    margin-left: 1%;
+}
+
+.profileSigh:hover {
+    background-color: #cee8db;
+    border-radius: 50%;
+    float: left;
+    color: #0300e8;
+    margin-left: 1%;
 }
 
 a {
@@ -101,8 +133,10 @@ div {
     width: auto;
     height: 15%;
     font-size: 16px;
-    margin: 15px 15px;
+    /*margin: 15px 15px;*/
     float: right;
+    /*margin-bottom: */
+    margin-top: 15px;
 }
 
 .button:hover {
@@ -130,8 +164,7 @@ p a {
     height: 90vh;
     background-color: #52a9ff;
     border-radius: 15px;
-    margin-top: 1%;
-    margin-left: 1%;
+    margin: 5px auto;
 }
 
 .profile {
@@ -142,8 +175,8 @@ p a {
 }
 
 #avatarProfileBlock, #baseProfileBlock {
-    width: 45%;
-    height: 40vh;
+    width: 300px;
+    height: 300px;
 }
 #baseProfileBlock {
     float: right;

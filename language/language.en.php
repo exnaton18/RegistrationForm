@@ -20,3 +20,4 @@
     define(P_AUTH_TEXT, "Not a member?");
     define(A_AUTH_TEXT, "Enter your username.");
     define(AUTH_BUTTON_VALUE, "Sign in");
+    define(LABEL_UPLOAD, "Avatar");

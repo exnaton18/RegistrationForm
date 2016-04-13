@@ -4,6 +4,7 @@
     } else {
         include_once ("language/language.ru.php");
     }
+    include_once ("includes/connection.php");
 ?>
 <!DOCTYPE html>
 <html>

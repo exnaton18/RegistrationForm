@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<form action="" method="get" enctype="multipart/form-data">
+<form action="" method="GET" enctype="multipart/form-data">
     Select image to upload:
     <input type="file" name="fileToUpload" id="fileToUpload">
     <input type="submit" value="Upload Image" name="submit">

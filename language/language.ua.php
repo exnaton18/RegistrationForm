@@ -20,3 +20,4 @@
     define(P_AUTH_TEXT, "Ще не зареєстровані?");
     define(A_AUTH_TEXT, "Перейти на форму регистрации.");
     define(AUTH_BUTTON_VALUE, "Увійти");
+    define(LABEL_UPLOAD, "Аватар");
