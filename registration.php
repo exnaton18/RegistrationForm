@@ -22,13 +22,10 @@
             <label for="repassword"><?=LABEL_REPASSWORD?></label><br>
             <input class="field" type="password" id="repassword" name="repassword" placeholder=<?=PLACEHOLDER_REPASSWORD?>><br>
             <label><?=LABEL_UPLOAD?></label><br>
-            <input type="file" name="fileToUpload" id="fileToUpload"><br>
-
-            <br>
-
+            <input type="file" name="fileToUpload" id="fileToUpload"><br><br>
             <label>Проверчный код</label><br>
-            <img src = "captcha.php" /><br>
-            <input type = "text" name = "kapcha" />
+            <img src = "captcha.php" style="margin-left: 1%"/><br>
+            <input class="field" type = "text" name = "kapcha" style="width: 175px"/>
         </div>
         <p class="regText"><?=P_REG_TEXT?><br><a href="login.php?lang=<?=$_GET['lang']?>"><?=A_REG_TEXT?></a></p>
         <button class="button" onclick="return valid(document.getElementById('form'))"><?=REG_BUTTON_VALUE?></button>

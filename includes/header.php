@@ -1,4 +1,5 @@
 <?php
+    session_start();
     if ($_GET["lang"]) {
         include_once("language/language." . $_GET["lang"] . ".php");
     } else {

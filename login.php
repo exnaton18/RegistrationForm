@@ -1,8 +1,7 @@
 <?php
-    session_start();
     include("includes/header.php");
     if(isset($_SESSION["session_username"]) && !empty($_SESSION["session_username"]))
-        header("Location: index.php?lang={$_GET['lang']}");
+        header("Location: index.php");
     if(!empty($_GET['username']) && !empty($_GET['password'])) {
         $username = htmlspecialchars($_GET['username']);
         $password = htmlspecialchars($_GET['password']);

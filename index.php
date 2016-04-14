@@ -22,14 +22,11 @@
     </div>
     <div class="profile" id="baseProfileBlock">
         <label for="username"><?=LABEL_USERNAME?>:</label><br>
-        <p><?php echo $result['username'];?></p>
+        <span class="about"><?php echo $result['username'];?></span><br>
         <label for="email"><?=LABEL_EMAIL?>:</label><br>
-        <p><?php echo $result['email'];?></p>
+        <span class="about"><?php echo $result['email'];?></span><br>
         <label for="fullName"><?=LABEL_FULLNAME?>:</label><br>
-        <p><?php echo $result['fullName'];?></p>
-    </div>
-    <div class="profile" id="othersProfileBlock">
-
+        <span class="about"><?php echo $result['fullName'];?></span>
     </div>
 </div>
 <script type="text/javascript" src="js/script.js"></script>
